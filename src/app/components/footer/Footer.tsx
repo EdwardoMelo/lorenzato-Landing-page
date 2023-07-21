@@ -32,7 +32,7 @@ const Footer = () => {
       <div className='text-center py-8'>
           <p className='text-slate-700'>@2023 Lorenzato, Todos os Direitos Reservados</p>
           <a className='text-blue-900 text-sm' href="">Políticas de Privacidade</a>
-          <a className='text-blue-900 text-sm' href="">Termos de Serviço</a>
+          <a className='text-blue-900 text-sm' href=""> Termos de Serviço</a>
       </div>
     </div>
   )
