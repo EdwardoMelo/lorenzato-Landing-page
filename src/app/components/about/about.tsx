@@ -13,7 +13,7 @@ import { Paper, Button } from '@mui/material'
 const Item = (props : ItemProps) =>{
     
     return (
-        <div className='slider flex gap-4 lg:flex-row flex-col items-center justify-center mx-auto md:w-[90%] px-4 py-10 bg-slate-50 rounded-br-[30px] drop-shadow-lg' id='SOBRE NÓS'>
+        <div className='slider flex gap-4 lg:flex-row flex-col items-center justify-center mx-auto md:w-[90%] px-4 py-10 bg-slate-50 rounded-br-[30px] drop-shadow-lg' >
             <div className='content text-black text-sm flex flex-col gap-3 lg:w-1/2 w-full md:mx-[2rem] drop-shadow-sm'>
                 <strong>{props.strong}</strong>
                 <h1 className='text-primary-red text-3xl font-bold'>{props.title}</h1>
@@ -57,8 +57,8 @@ const about = () => {
     ]
 
   return (
-    <section className='about w-full flex justify-center items-center'>
-        <Carousel autoPlay={false}	className='w-full'>
+    <section className='about w-full flex justify-center items-center' id='SOBRE NÓS'>
+        <Carousel autoPlay={false} swipe={false} animation="slide"	className='w-full'>
             {
                 items.map( (item, i) => <Item key={i} image={item.image} strong={item.strong} title={item.title} content={item.content}/> )
             }
