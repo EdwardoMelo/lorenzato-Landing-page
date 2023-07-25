@@ -58,7 +58,7 @@ const about = () => {
 
   return (
     <section className='about w-full flex justify-center items-center' id='SOBRE NÓS'>
-        <Carousel autoPlay={false} swipe={false} animation="slide"	className='w-full'>
+        <Carousel autoPlay={false} swipe={true} animation="slide"	className='w-full'>
             {
                 items.map( (item, i) => <Item key={i} image={item.image} strong={item.strong} title={item.title} content={item.content}/> )
             }
