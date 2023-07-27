@@ -23,7 +23,7 @@ const Contacts = () => {
         </div>
           <h1 className='contacts__content text-4xl font-bold text-primary-red px-8 my-8'>Entre em Contato</h1>
           <span className='text-black font-bold text-md px-8'>Ficaremos Felizes em Esclarecer duas dúvidas!</span>
-
+          <p className='text-sm text-slate-700 pl-8'>Envie o Formulário e confirme o Captcha </p>
            <form className="w-full mx-auto bg-white rounded-lg px-8 py-6 flex flex-col gap-5" action="https://formsubmit.co/contato@lorenzatopneus.com.br" method="POST">
            <div className="mb-4 shadow-sm">
              <label htmlFor="nome" className="block text-gray-700 text-sm font-bold mb-2">Nome:</label>
