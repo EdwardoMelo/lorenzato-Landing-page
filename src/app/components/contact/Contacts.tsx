@@ -41,7 +41,7 @@ const Contacts = () => {
            <div className="flex justify-center">
              <button type="submit" className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Enviar</button>
            </div>
-           <input type="hidden" name="_next" value="http://localhost:3000/" />
+           <input type="hidden" name="_next" value="https://lorenzatopneus.com.br/" />
          </form>
         </div>
 
