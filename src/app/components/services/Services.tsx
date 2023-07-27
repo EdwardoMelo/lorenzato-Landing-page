@@ -5,15 +5,14 @@ import Suspension from '../../assets/suspensao.jpg';
 import Embreagem from '../../assets/embreagem.jpg';
 import Breaks from '../../assets/freios.jpg';
 import Oil from '../../assets/oleos.jpg';
+import Wheel from '../../assets/front-right-side-blue-sedan-car.jpg'
+import Brands from "../brands/brands";
+
 const Services = () => {
     const items = [
+       
         {
-            title: 'Balanceamento Computadorizado',
-            content: 'O processo de balanceamento consiste em fixar a roda em uma máquina especial chamada balanceadora.',
-            image: Balanceamento
-        },
-        {
-            title: 'Geometria',
+            title: 'Geometria Computadorizada',
             content: 'refere-se à geometria da suspensão de um veículo, também conhecida como geometria de direção ou alinhamento das rodas.',
             image: Geometry
         },
@@ -23,9 +22,9 @@ const Services = () => {
             image: Suspension
         },
         {
-            title: 'Embreagem',
-            content: 'Ela permite que o motor seja desacoplado da caixa de câmbio temporariamente para permitir a troca de marchas e, em seguida, ser recoplado para transmitir a potência do motor para as rodas.',
-            image: Embreagem
+            title: 'Pintura de Rodas',
+            content: 'Todos sabem como é bacana ter rodas brilhantes e bem cuidadas, passando a impressão de Cuidado e melhorando a estética do seu carro!',
+            image: Wheel
         },
         {
             title: 'Sistema de Freios',
@@ -49,6 +48,9 @@ const Services = () => {
                 <ServiceCard key={i} title={item.title} content={item.content} image={item.image}/>
             ))}
         </div>
+        <h1 className="text-3xl text-primary-red font-extrabold mt-16 mb-14 text-center">Com quais marcas Trabalhamos?</h1>
+        <span className="font-bold text-black mb-12 text-center">As melhores marcas que temos ao nosso dispor com a maior variedade de medidas</span>
+       <Brands />
     </section>
   )
 }

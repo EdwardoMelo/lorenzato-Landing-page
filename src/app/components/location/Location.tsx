@@ -1,4 +1,4 @@
-import LocationImage from '../../assets/3d-render-red-location-pin-map-with-route.jpg'
+import LocationImage from '../../assets/location.jpg'
 import Image from 'next/image'
 const Location = () => {
   return (
@@ -7,7 +7,7 @@ const Location = () => {
             <strong>Aonde nos encontrar?</strong>
             <h1 className="text-[36px] font-bold text-primary-red">Localização</h1>
             <p className="leading-7">Atualmente nossa sede se encontra em Gravataí no Parque dos Anjos <br />
-            <span className='text-xs text-slate-600'>HORARIO DE FUNCIONAMENTO: 8:00 - 18:00</span></p>
+            <span className='text-xs text-slate-600'>HORARIO DE FUNCIONAMENTO: 8:00 - 12:00 / 13:30 - 18:30</span></p>
             <div className="location__card flex flex-col gap-4 border-l-4 border-black px-4">
                 <h1 className="text-black font-bold">Gravataí -RS</h1>
                 <p className="text-black">Rua Antonio Valdemiro De Oliveira Barros, 55 - 94185-380</p>

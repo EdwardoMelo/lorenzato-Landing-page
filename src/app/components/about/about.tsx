@@ -33,19 +33,19 @@ const about = () => {
         { 
             strong: "Quem somos Nós?", 
             title: "Lorenzato", 
-            content: "A Lorenzato Autopeças é uma empresa especializada em pneus e atua no mercado automotivo há mais de 10 anos (você pode inserir a quantidade de anos em que a empresa está ativa). Nossa empresa é dedicada a fornecer aos clientes uma ampla variedade de pneus de alta qualidade e serviços relacionados, visando atender às necessidades de motoristas e proprietários de veículos.",
+            content: "A Lorenzato Autopeças é uma empresa especializada em pneus e atua no mercado automotivo há mais de 14 anos. Nossa empresa é dedicada a fornecer aos clientes uma ampla variedade de pneus de alta qualidade e serviços relacionados, visando atender às necessidades de motoristas e proprietários de veículos.",
             image: About
             },
         {
             strong: "Nossa Missão", 
             title: "Missão", 
-            content: "Nossa missão é transformar vidas, oferecendo produtos e serviços de alta qualidade, que atendam às necessidades de nossos clientes e contribuam para o seu bem-estar e sucesso.Desejamos Fornecer produtos de alta qualidade e soluções automotivas inovadoras, sendo uma referência em pneus e rodas para clientes que buscam segurança, performance e confiança em suas jornadas sobre rodas",
+            content: "Nossa missão é oferecer produtos e serviços de alta qualidade, que atendam às necessidades de nossos clientes e contribuam para o seu bem-estar e sucesso. Desejamos Fornecer soluções automotivas inovadoras, sendo uma referência em pneus e rodas para clientes que buscam segurança, performance e confiança em suas jornadas sobre rodas",
             image: Mission
         },
         { 
             strong: "Nossa Visão", 
             title: "Visão", 
-            content: "Ser referência no mercado, reconhecidos pela excelência e inovação, tornando-se a primeira escolha dos clientes e parceiros em nossos segmentos de atuação..",
+            content: "Ser referência no mercado, reconhecidos pela excelência e inovação, tornando-se a primeira escolha dos clientes e parceiros em nossos segmentos de atuação.",
             image: Vision
         },
         { 
