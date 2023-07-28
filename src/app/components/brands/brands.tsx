@@ -29,8 +29,8 @@ const Brands = () => {
           <div  className="bg-white rounded-lg shadow-lg overflow-hidden h-[200px] w-[300px]">
             <Image
               src={image}
-              alt="Marca 1"
-              className="w-full h-1/2 object-contain"
+              alt=""
+              className="w-full h-1/2 object-contain md:object-contain"
             />
             <div className="p-4">
               <h3 className="text-xl font-bold mb-2">Marca 1</h3>
