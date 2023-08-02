@@ -33,7 +33,7 @@ const about = () => {
         { 
             strong: "Quem somos Nós?", 
             title: "Lorenzato", 
-            content: "A Lorenzato Autopeças é uma empresa especializada em pneus e atua no mercado automotivo há mais de 14 anos. Nossa empresa é dedicada a fornecer aos clientes uma ampla variedade de pneus de alta qualidade e serviços relacionados, visando atender às necessidades de motoristas e proprietários de veículos.",
+            content: "A Lorenzato Autocenter é uma empresa especializada em pneus e atua no mercado automotivo há mais de 14 anos. Nossa empresa é dedicada a fornecer aos clientes uma ampla variedade de pneus de alta qualidade e serviços relacionados, visando atender às necessidades de motoristas e proprietários de veículos.",
             image: About
             },
         {
